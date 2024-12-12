@@ -1,0 +1,51 @@
+<style>
+
+/* basic css reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{ margin: 0; }
+img{
+    display:block;
+    max-width: 100%;
+}
+/* basic css reset */
+.title {
+    color: #ff5722;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.box {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 50px;
+    margin: 5px;
+    background-color: #Add8e6;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.box.disabled {
+    background-color: #ff3333;
+}
+.dice {
+    font-size: 3rem;
+    color: #000000;
+}
+
+.winner {
+    font-size: 2rem;
+    text-align: center;
+    color: #28a745;
+    margin-top: 20px;
+}
+.shut {
+    background-color: #d9534f;
+    color: #ffffff;
+    border-color: #c9302c;
+    border-width: 2px;
+    text-align: center;
+}
+</style>
